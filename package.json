@@ -2,12 +2,17 @@
     "name": "@qyu/anim-core",
     "type": "module",
     "version": "1.0.0",
+    "homepage": "https://github.com/qlwt/anim-core#readme",
     "description": "Animation definition and implementation",
     "keywords": ["animation", "spring", "loop", "oscillator", "chain", "sequence"],
     "license": "MIT",
     "files": [
         "./build/**/*"
     ],
+    "repository": {
+        "type": "git",
+        "url": "github:qlwt/anim-core"
+    },
     "scripts": {
         "build": "run-s build:clear build:rollup",
         "build:clear": "rimraf ./build",
