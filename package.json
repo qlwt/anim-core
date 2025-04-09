@@ -1,7 +1,8 @@
 {
     "name": "@qyu/anim-core",
     "type": "module",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "main": "./build/bundle/entry/index.js",
     "homepage": "https://github.com/qlwt/anim-core#readme",
     "description": "Animation definition and implementation",
     "keywords": ["animation", "spring", "loop", "oscillator", "chain", "sequence"],
