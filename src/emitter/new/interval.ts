@@ -81,7 +81,7 @@ export const emitter_new_interval = function <Point>(params: EmitterNewInterval_
                 cleanup()
                 cleanup = undefined
 
-                update(performance.now())
+                update(scheduler.time_init())
             }
         },
 

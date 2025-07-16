@@ -1,7 +1,7 @@
 {
     "name": "@qyu/anim-core",
     "type": "module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "./build/bundle/entry/index.js",
     "homepage": "https://github.com/qlwt/anim-core#readme",
     "description": "Animation definition and implementation",
